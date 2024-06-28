@@ -7,10 +7,12 @@
 * __Phone:__ +357 99 065609
 * __E-mail:__ mariapet70@gmail.com
 * __Discord:__ Maria Petrovskaia(@Maria-arty)
+
 ***
 
 ### __About me__
 I am a highly motivated beginner in front-end development with foundational skills in programming and a strong desire to grow in tech industry. I have a keen interest in web development and a commitment to continuous learning. I am responsible, detail-oriented, and possess excellent problem-solving abilities. Eager to contribute to innovative projects and enhance my skills in a dynamic environment.
+
 ***
 
 ### __Skills__
@@ -19,6 +21,7 @@ I am a highly motivated beginner in front-end development with foundational skil
 * HTML (Basic)
 * CSS (Basic)
 * SQL (Basic)
+
 ***
 
 ### __Code Example__
@@ -42,6 +45,7 @@ while True:
 * Nizhny Novgorod State Linguistic University (Philology, English, French)
 * Stepic "Generation Python": course for beginners (100%)
 * Harvard CS50 
+
 ***
 
 ### __English__
