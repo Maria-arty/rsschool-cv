@@ -1,5 +1,5 @@
 
-![Photo](photo2.jpg)
+![Photo](https://github.com/Maria-arty/rsschool-cv/blob/gh-pages/Photo2.jpg)
 # __Maria Petrovskaia__
 
 ### __Contacts__
