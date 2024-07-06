@@ -47,7 +47,7 @@ while True:
 ### __Education__
 * Nizhny Novgorod State Linguistic University (Philology, English, French)
 * Stepic "Generation Python": course for beginners (100%)
-* Harvard CS50 
+* Harvard CS50 2023 course (80%) 
 
 
 ***

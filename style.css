@@ -49,7 +49,6 @@ h2 {
 
 }
 .photo {
-    flex-shrink: 0;
     width: 300px;
     border-radius: 50%;
     padding: 1rem;
@@ -110,7 +109,7 @@ h1 {
 }
 .box3-container {
     display: flex;
-    height: 30vh;
+    height: 40vh;
     width: 100%;
 }
 .box3-right {
@@ -118,9 +117,31 @@ h1 {
     flex-direction: column;
     align-items: left;
     justify-content: left;
+    height: 40vh;
+    width: 70%;
+}
+.box4-container {
+    display: flex;
+    height: 30vh;
+    width: 100%;
+}
+.box4-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    width: 30%;
+    background-color: beige;
+}
+.box4-right {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: left;
     height: 30vh;
     width: 70%;
 }
-.code-example {
-   align-self: flex-start;
+.education-list {
+    line-height: 1.7rem;
+    padding-left: 10%;
 }
