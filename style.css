@@ -32,14 +32,15 @@ h2 {
     padding: 1.75em 1.75em 0em;
     text-decoration: none;
 }
-.box1-container {
+.box-container {
     display: flex;
+    flex-wrap: wrap;
     height: 40vh;
     width: 100%;
     
     
 }
-.box1-left {
+.box-left {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,7 +54,7 @@ h2 {
     border-radius: 50%;
     padding: 1rem;
 }
-.box1-right {
+.box-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,6 +69,7 @@ h1 {
 }
 .box2-container {
     display: flex;
+    flex-wrap: wrap;
     height: 30vh;
     width: 100%;
 }
@@ -109,6 +111,7 @@ h1 {
 }
 .box3-container {
     display: flex;
+    flex-wrap: wrap;
     height: 40vh;
     width: 100%;
 }
@@ -122,6 +125,7 @@ h1 {
 }
 .box4-container {
     display: flex;
+    flex-wrap: wrap;
     height: 30vh;
     width: 100%;
 }
@@ -143,5 +147,15 @@ h1 {
 }
 .education-list {
     line-height: 1.7rem;
-    padding-left: 10%;
+    padding-left: 7%;
 }
+@media (max-width: 768px) {
+    .box-right {
+      width: 100%;
+    }
+  }
+  @media (max-width: 768px) {
+    .box-left {
+      width: 100%;
+    }
+  }
