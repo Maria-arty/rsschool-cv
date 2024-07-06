@@ -1,3 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(237, 176, 101);
+}
+.container-header {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1.2rem;
+}
+h2 {
+    color: rgb(34, 23, 1);
+    padding: 1rem;
+    text-align: center;
+}
+.nav-list {
+    display: flex;
+    justify-content: end; 
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 1.2em;
+    color: rgb(56, 27, 5);
+    padding: 1.75em 1.75em 0em;
+    text-decoration: none;
+}
+.box1-container {
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    
+    
+}
+.box1-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    width: 30%;
+    background-color: beige;
+
+}
+.photo {
+    flex-shrink: 0;
+    width: 300px;
+    border-radius: 50%;
+    padding: 1rem;
+}
+.box1-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 70%;
+}
 h1 {
+    font-size: 3rem;
+    color: rgb(212, 151, 28);
+    padding: 1.5rem;    
+}
+.box2-container {
+    display: flex;
+    height: 30vh;
+    width: 100%;
+}
+.box2-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    width: 30%;
+    background-color: beige;
+}
+.contacts-list {
+    line-height: 1.7rem;
+}
+.box2-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    height: 30vh;
+    width: 70%;
+}
+.summary-text {
+    padding: 0 4rem;
+    line-height: 1.6em;
     font-size: large;
+}
+.box3-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    width: 30%;
+    background-color: beige;
+}
+.skills-list {
+    line-height: 1.7rem;
+    font-weight: bolder;
+}
+.box3-container {
+    display: flex;
+    height: 30vh;
+    width: 100%;
+}
+.box3-right {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    height: 30vh;
+    width: 70%;
+}
+.code-example {
+   align-self: flex-start;
 }
