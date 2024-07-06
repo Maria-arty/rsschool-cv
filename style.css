@@ -34,7 +34,6 @@ h2 {
 }
 .box-container {
     display: flex;
-    flex-wrap: wrap;
     height: 40vh;
     width: 100%;
     
@@ -42,6 +41,7 @@ h2 {
 }
 .box-left {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     height: 40vh;
@@ -56,13 +56,15 @@ h2 {
 }
 .box-right {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     height: 40vh;
     width: 70%;
 }
 h1 {
+    text-align: center;
     font-size: 3rem;
     color: rgb(212, 151, 28);
     padding: 1.5rem;    
@@ -151,11 +153,11 @@ h1 {
 }
 @media (max-width: 768px) {
     .box-right {
-      width: 100%;
+      width: 30%;
     }
   }
   @media (max-width: 768px) {
     .box-left {
-      width: 100%;
+      width: 70%;
     }
   }
