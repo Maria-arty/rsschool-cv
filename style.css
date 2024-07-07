@@ -34,7 +34,7 @@ h2 {
 }
 .box-container {
     display: flex;
-    height: 40vh;
+    height: 42vh;
     width: 100%;
     
     
@@ -44,7 +44,7 @@ h2 {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    height: 40vh;
+    height: 42vh;
     width: 30%;
     background-color: beige;
     @media (max-width: 768px) {
@@ -69,7 +69,7 @@ h2 {
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    height: 40vh;
+    height: 42vh;
     width: 70%;
 
 @media (max-width: 768px) {
