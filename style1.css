@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+    background-color: 
+    #c9deeafa;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.body-wrapper {
+    width: 98%;
+    height: 96vh;
+    background-color: white;
+    display: flex;
+}
+.header_container{
+    width: 20%;
+    margin: 1% 0 1% 1%;
+    background: linear-gradient(to bottom, #91c3fbfa, #007ef385, #f3f7ff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo_container {
+    width: 100%;
+    display: flex;
+
+    /* height: 25%; */
+    /* border-radius: 50%;
+    border: solid 10px white */
+}
+.photo {
+    width: calc(100% - 3px);
+    height: 100%;
+    /* border-radius: 50%; */
+    object-fit: cover;
+    flex-shrink: 1; 
+}
+.name_container {
+    position: relative;
+    width: fit-content;
+    height: 17%;
+    width: 140%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    
+}
+
+#name {
+    font-size: 2.5vw;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.5em;
+}
+#profession {
+    font-size: 1em;
+    font-weight: 200;
+    color: rgb(84, 96, 105);
+}
+.line1 {
+    background: linear-gradient(to right, #f3f7ff, #afccedfa, #80a8cd85);
+    width: 60%;
+    height: 2px;
+    position: relative;
+    border-radius: 1px;
+    right: -40%;
+}
+.line2 {
+    background: linear-gradient(to right, #f3f7ff, #3f5192fa, #4b556a);
+    width: 100%;
+    height: 2px;
+    position: relative;
+    border-radius: 1px;
+}
+.line3 {
+    width: 3px;
+    height: 100%; 
+    background: linear-gradient(to bottom, #9db4e42b, #0787ed0a, #4b556a);
+
+}
+main {
+    width: 80%;
+    margin: 1% 1% 1% 0;
+    background: linear-gradient(to bottom, #91c3fbfa, #007ef385, #f3f7ff);
+}
+.menu_container {
+    position: relative;
+    width: 100%;
+    
+    margin-top: 2%;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-link {
+    padding: 10px;
+    text-decoration: none;
+    color: #031424d6;
+}
+#contacts-icon {
+    width: 1.1em;
+    height: 1.1em;
+}
+.main-wrapper {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section {
+    width: 45%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+
