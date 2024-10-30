@@ -11,7 +11,7 @@
     <div class="body-wrapper">
     <header class="header_container">
         <div class="name_container">
-            <h1 id="name">Maria Petrovskaia</h1>
+            <h1 id="name"><span style="color: rgb(244, 246, 250);">Maria</span> Petrovskaia</h1>
             <h3 id="profession">Frontend developer</h3>
         </div>
         <div class="line1"></div>
@@ -20,19 +20,29 @@
             <div class="line3"></div>
         </div>
         <div class="line2"></div>
-        <h3 id="contacts">Contacts</h3>
-        <ul class="contacts-list">
-        <li>
-            <a href="https://www.google.com/maps/dir//Nicosia/" target="_blank">
-                <img id="contacts-icon" src="Assets/Imgs/location.png" alt="location-icon"> Nicosia, Cyprus
-            </a>
-        </li>
-        <li><Strong>Phone:</Strong>  +357 99065609</li>
-        <li>
-            <a href="mailto:Mariapet70@gmail.com" style="text-decoration: none"><img id="contacts-icon" src="Assets/Imgs/pngwing.com.png" alt="email-icon"> mariapet70@gmail.com
-            </a>
-        </li>
-        </ul> 
+        <div class="contacts_container">
+            <h3 id="contacts">Contacts</h3>
+            <ul class="contacts-list">
+            <li>
+                <a id="contacts-link" href="https://www.google.com/maps/dir//Nicosia/" target="_blank">
+                    <img id="contacts-icon" src="Assets/Imgs/location.png" alt="location-icon">
+                    <p id="contact">Nicosia, Cyprus</p>
+                </a>
+            </li>
+            <li>
+                <a id="contacts-link" href="tel:+35799065609">
+                    <img id="contacts-icon" src="Assets/Imgs/phone.png" alt="phone-icon">
+                    <p id="contact">+357 99065609</p>
+                </a>
+            </li>
+            <li>
+                <a id="contacts-link" href="mailto:Mariapet70@gmail.com">
+                    <img id="contacts-icon" src="Assets/Imgs/pngwing.com.png" alt="email-icon">
+                    <p id="contact">mariapet70@gmail.com</p>
+                </a>
+            </li>
+            </ul>
+        </div> 
     </header>
     <main>
         <div class="menu_container">
@@ -50,23 +60,66 @@
         </div>
         <div class="main-wrapper">
             <section id="about">
-                <h3>about me</h3>
+                <h3>About me</h3>
+                <div class="line4"></div>
+                <p class="about-content">
+                    I am a highly motivated beginner in frontend development with foundational skills in programming 
+                    and a strong desire to grow in tech industry. I have a keen interest in web development
+                     and a commitment to continuous learning. I am responsible, detail-oriented, and possess excellent problem-solving abilities.
+                </p>
+                
             </section>
             <section id="education">
-                <h3>education</h3>
-            </section>
-            <section id="code">
-                <h3>code</h3>
+                <h3>Education</h3>
+                <div class="line4"></div>
+                <ul class="education-list">
+                    <li>Nizhny Novgorod State Linguistic University</li>
+                    <li>JS/FE Pre-School 2024Q2 Javascript (99%)</li>
+                    <li>Stepic "Generation Python": course for beginners (100%)</li>
+                    <li>Harvard CS50 2023 course (80%)</li>
+                </ul>
+                
             </section>
             <section id="skills">
-                <h3>skills</h3>
-            </section>
-            <section id="projects">
-                <h3>projects</h3>
+                <h3>Skills</h3>
+                <div class="line4"></div>
+                <div class="skills-container"></div>
+                
             </section>
             <section id="english">
-                <h3>english</h3>
+                <h3>English</h3>
+                <div class="line4"></div>
+                
             </section>
+            <section id="projects">
+                <h3>Projects</h3>
+                <div class="line4"></div>
+            
+            </section>
+            <section id="code">
+                <!-- <h3>Code</h3> -->
+                <div class="laptop-wrapper">
+                    <!-- <img id="laptop" src="Assets/Imgs/laptop3.png" alt="laptop"> -->
+                    <!-- <pre> -->
+                        <code>
+                            <!-- const myString
+                            = 'Hello, World!';
+                            console.log(myString); -->
+                        function sortMyString(S) {
+                            S_arr = S.split('')
+                            return S_arr.filter((char, index) =>
+                            index % 2 === 0)
+                            .join('') + ' ' + S_arr.filter((char, index) =>
+                            index % 2 !== 0)
+                            .join('')
+                        }
+                        </code>
+                    <!-- </pre> -->
+                    
+                </div>
+                <div class="line4"></div>
+                
+            
         </div>
         
     </main>

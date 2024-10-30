@@ -24,7 +24,7 @@ body {
 .header_container{
     width: 20%;
     margin: 1% 0 1% 1%;
-    background: linear-gradient(to bottom, #91c3fbfa, #007ef385, #f3f7ff);
+    background: linear-gradient(to bottom, #91c3fb, #007ef385, #f3f7ff);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,23 +58,24 @@ body {
 }
 
 #name {
-    font-size: 2.5vw;
+    font-size: 2.7vw;
     font-weight: 500;
-    color: rgb(255, 255, 255);
+    color: #4b556a;
     margin-bottom: 0.5em;
 }
 #profession {
-    font-size: 1em;
+    font-size: 1.4em;
     font-weight: 200;
     color: rgb(84, 96, 105);
+    text-align: end;
 }
 .line1 {
     background: linear-gradient(to right, #f3f7ff, #afccedfa, #80a8cd85);
-    width: 60%;
+    width: 70%;
     height: 2px;
     position: relative;
     border-radius: 1px;
-    right: -40%;
+    right: -35%;
 }
 .line2 {
     background: linear-gradient(to right, #f3f7ff, #3f5192fa, #4b556a);
@@ -89,16 +90,60 @@ body {
     background: linear-gradient(to bottom, #9db4e42b, #0787ed0a, #4b556a);
 
 }
+.line4 {
+    align-self: flex-start;
+    background: linear-gradient(to left, #f3f7ff, #3f5192fa, #4b556a);
+    width: 90%;
+    height: 2px;
+    position: relative;
+    border-radius: 1px;
+}
+.contacts_container {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5% 0 0 1% ;
+}
+#contacts {
+    font-size: 1.2em;
+    font-weight: 200;
+    color: 
+    rgb(104, 105, 107);
+    margin: 0 0 3% 3%;
+}
+.contacts-list {
+    list-style: none;
+}
+#contacts-link {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5% 3%;
+    
+}
+#contacts-icon {
+    width: 1.1em;
+    height: 1.1em;
+}
+#contact {
+    margin-left: 5%;
+    color: #4b556a;
+}
 main {
     width: 80%;
     margin: 1% 1% 1% 0;
     background: linear-gradient(to bottom, #91c3fbfa, #007ef385, #f3f7ff);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 .menu_container {
     position: relative;
     width: 100%;
-    
-    margin-top: 2%;
+    margin-top: 1.5%;
     display: flex;
     justify-content: flex-end;
 }
@@ -110,26 +155,103 @@ main {
 .nav-link {
     padding: 10px;
     text-decoration: none;
-    color: #031424d6;
+    color: #3f4041d6;
 }
-#contacts-icon {
-    width: 1.1em;
-    height: 1.1em;
+.nav-link:hover {
+    color: #3d454fd6;
 }
+
 .main-wrapper {
+    position: relative;
+    margin: 3% 0% 3% 4%;
     width: 90%;
     height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
+    row-gap: 3%;
 }
 section {
     width: 45%;
-    height: 25%;
+    height: 32%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    /* border: solid 2px white; */
+    row-gap: 7%;
+    color: white;
+    flex-shrink: 1;
+}
+h3 {
+    text-align: start;
+    width: 100%;
+    font-size: 1.5vw;
+    font-weight: 200;
+    color: #606c85;
 }
 
+.about-content {
+    width: 100%;
+    margin: 1% auto 1% 1%;
+    color: 
+    #0b2252;
+    line-height: 1.4em;
+    font-size: 1.05vw;
+}
+.education-list {
+    margin: 1% auto;
+    color: 
+    #0b2252;
+    line-height: 1.6em;
+    list-style: none;
+    font-size: 1.1vw;
+}
+ul.education-list li::before {
+    content: '\2713\0020';
+    color: #057797;
+    font-weight: bold;
+}
+#english {
+    height: 25%;
+}
+#code {
+    height: 40%;
+    position: relative;
+    top: -5%;
+}
+
+.laptop-wrapper {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('Assets/Imgs/laptop3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: visible;
+
+}
+#laptop {
+    object-fit: fill;
+    flex-shrink: 1;
+    position: relative;
+    /* top: -50%;
+    left: -50%; */
+}
+pre {
+    width: 245px;
+}
+code {
+    margin-top: 7%;
+    width: 175px;
+    position: relative;
+    z-index: 10;
+    color: #0b2252;
+    font-size: 0.6em;
+    line-height: 1.5em;
+}
 
