@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Petrovskaia CV</title>
+    <link rel="icon" href="Assets/Imgs/CVicon.ico">
+</head>
+<body>
+    <header class="header">
+        <div class="container-header">
+            <nav>
+              <ul class="nav-list">
+              <li><a class="nav-link" href="#about">About me</a></li>
+              <li><a class="nav-link" href="#contacts">Contacts</a></li>
+              <li><a class="nav-link" href="#skills">Skills</a></li>
+              <li><a class="nav-link" href="#code">Code</a></li>
+              <li><a class="nav-link" href="#education">Education</a></li>
+              <li><a class="nav-link" href="#projects">Projects</a></li>
+              <li><a class="nav-link" href="#english">English</a></li>
+              </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="box-container">
+            <div class="box-left">
+                <div class="photo-box">
+                    <img class="photo" src="./Assets/Imgs/Photo2.jpg" alt="Photo">
+                </div>
+            </div>
+            <div class="box-right">
+                <h1>Maria <span style="color: rgb(34, 23, 1)">Petrovskaia</span></h1>
+                <h2>Front-end developer (beginner)</h2>
+            </div>
+        </section>
+        <section class="box-container">
+            <div class="box-left">
+                <h2 id="contacts">Contacts</h2>
+                <ul class="contacts-list">
+                <li><Strong>Location:</Strong>  Nicosia, Cyprus</li>
+                <li><Strong>Phone:</Strong>  +357 99065609</li>
+                <li><Strong>E-mail:</Strong><a href="mailto:Mariapet70@gmail.com" style="text-decoration: none">  mariapet70@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="box-right">
+                <h2 id="about">About me</h2>
+                <p class="summary-text">
+                    I am a highly motivated beginner in front-end development with foundational skills in programming 
+                    and a strong desire to grow in tech industry. I have a keen interest in web development
+                     and a commitment to continuous learning. I am responsible, detail-oriented, and possess excellent problem-solving abilities. 
+                     Eager to contribute to innovative projects and enhance my skills in a dynamic environment.
+                </p>
+            </div>
+        </section>
+        <section class="box-container">
+            <div class="box-left">
+                <h2 id="skills">Skills</h2>
+                <ul class="skills-list">
+                    <li>HTML (basic)</li>
+                    <li>CSS (basic)</li>
+                    <li>GIT, Github (basic)</li>
+                </ul>
+            </div>
+            <div class="box-right">
+                <h2 id="code">Code</h2>
+                <div class="code-example">
+                    <pre>
+                      <code>
+                         while True:
+                            h = input("Height: ")
+                            if h.isdigit() and int(h) in range(1, 9):
+                                h = int(h)
+                                for i in range(1, (h + 1)):
+                                    s = " " * (h - i) + "#" * i + "  " + "#" * i
+                                    print(s)
+                                break
+                            else:
+                                continue
+                      </code>
+                    </pre>
+                </div>
+            </div>
+        </section>
+        <section class="box-container">
+            <div class="box-left">
+                <h2 id="projects">Projects</h2>
+                <ul class="projects-list">
+                    <li><a href="https://maria-arty.github.io/rsschool-cv" style="text-decoration: none">Rsschool-cv</a></li>
+                </ul>
+                <h2 id="english">English</h2>
+                <p>Advanced</p>
+            </div>
+            <div class="box-right">
+                <h2 id="education">Education</h2>
+                <ul class="education-list">
+                    <li>Nizhny Novgorod State Linguistic University</li>
+                    <li>Stepic "Generation Python": course for beginners (100%)</li>
+                    <li>Harvard CS50 2023 course (80%)</li>
+                </ul>
+            </div>
+        </section>  
+    </main>
+    <footer class="footer">
+        <div class="container-footer">
+            <a href="https://rs.school/courses/javascript-ru"> <img src="Assets/Imgs/RSlogo.jpg" alt="RS Javascript-ru"></a>
+            <a href="https://github.com/Maria-arty"> <img src="Assets/Imgs/Github_logo.jpg" alt="Github"></a>
+            <p style="text-align: center">&#169; 2024</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrovskaia Maria</title>
+    <link rel="icon" href="Assets/Imgs/CVicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body-wrapper">
+    <header class="header_container">
+        <div class="name_container">
+            <h1 id="name"><span style="color: rgb(244, 246, 250);">Maria</span> Petrovskaia</h1>
+            <h2 id="profession">Frontend developer</h2>
+        </div>
+        <div class="line1"></div>
+        <div class="photo_container">
+            <img class="photo" src="Assets/Imgs/photo_1.jpg" alt="Photo">
+            <div class="line3"></div>
+        </div>
+        <div class="line2"></div>
+        <div class="contacts_container">
+            <h2 id="contacts">Contacts</h2>
+            <ul class="contacts-list">
+            <li>
+                <a class="contacts-link" href="https://www.google.com/maps/dir//Nicosia/" target="_blank">
+                    <img class="contacts-icon" src="Assets/Imgs/location.png" alt="location-icon">
+                    <p class="contact">Nicosia, Cyprus</p>
+                </a>
+            </li>
+            <li>
+                <a class="contacts-link" href="tel:+35799065609">
+                    <img class="contacts-icon" src="Assets/Imgs/phone.png" alt="phone-icon">
+                    <p class="contact">+357 99065609</p>
+                </a>
+            </li>
+            <li>
+                <a class="contacts-link" href="mailto:Mariapet70@gmail.com">
+                    <img class="contacts-icon" src="Assets/Imgs/pngwing.com.png" alt="email-icon">
+                    <p class="contact">mariapet70@gmail.com</p>
+                </a>
+            </li>
+            </ul>
+        </div> 
+    </header>
+    <main>
+        <div class="menu_container">
+            <nav class="menu">
+              <ul class="nav-list">
+              <li><a class="nav-link" href="#about">About me</a></li>
+              <li><a class="nav-link" href="#education">Education</a></li>
+              <li><a class="nav-link" href="#skills">Skills</a></li>
+              <li><a class="nav-link" href="#languages">Languages</a></li>
+              <li><a class="nav-link" href="#projects">Projects</a></li>
+              <li><a class="nav-link" href="#code">Code</a></li>
+              <li><a class="nav-link" href="#contacts">Contacts</a></li>
+              </ul>
+            </nav>
+        </div>
+        <div class="main-wrapper">
+            <section id="about">
+                <h2>About me</h2>
+                <div class="line4"></div>
+                <p class="about-content">
+                    I am a highly motivated beginner in frontend development with foundational skills in programming 
+                    and a strong desire to grow in tech industry. I have a keen interest in web development
+                     and a commitment to continuous learning. I am responsible, detail-oriented, and possess excellent problem-solving abilities.
+                </p>  
+            </section>
+            <section id="education">
+                <h2>Education</h2>
+                <div class="line4"></div>
+                <div class="education-list-wrapper">
+                    <ul class="education-list">
+                        <li>Nizhny Novgorod State Linguistic University</li>
+                        <li>JS/FE Pre-School 2024Q2 Javascript (99%)</li>
+                        <li>Stepic "Generation Python" (100%)</li>
+                        <li>Harvard CS50 2023 course (80%)</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="line4"></div>
+                <div class="skills-container">
+                    <ul class="skills-list">
+                        <li>HTML (basic)</li>
+                        <li>CSS (basic)</li>
+                        <li>Javascript (basic)</li>
+                        <li>GIT, Github (basic)</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="languages">
+                <h2>Languages</h2>
+                <div class="line4"></div>
+                <div class="languages-container">
+                    <ul class="languages-list">
+                        <li>English (C1)</li>
+                        <li>French (B1-B2)</li>
+                        <li>Greek (A1-A2)</li>
+                    </ul>
+                </div>
+                
+            </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="line4"></div>
+                <div class="projects-container">
+                    <ul class="projects-list">
+                        <li class="project-list-item"><a class="project-link" href="https://rolling-scopes-school.github.io/maria-arty-JSFEPRESCHOOL2024Q2/image-gallery/" target="_blank">Image gallery</a></li>
+                        <li class="project-list-item"><a class="project-link" href="https://rolling-scopes-school.github.io/maria-arty-JSFEPRESCHOOL2024Q2/js-audio-player/" target="_blank">Audio player</a></li>
+                        <li class="project-list-item"><a class="project-link" href=" https://rolling-scopes-school.github.io/maria-arty-JSFEPRESCHOOL2024Q2/random-game/" target="_blank">Random game</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section id="code">
+                <h2>Code</h2>
+                <div class="line4"></div>
+                <div class="laptop-wrapper">
+                        <code>
+                        function sortMyString(S) {
+                            S_arr = S.split('')
+                            return S_arr.filter((char, index) =>
+                            index % 2 === 0)
+                            .join('') + ' ' + S_arr.filter((char, index) =>
+                            index % 2 !== 0)
+                            .join('')
+                        }
+                        </code>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div>
+                <a href="https://rs.school/courses/javascript-ru"> <img id="RS"  src="Assets/Imgs/rss-logo.svg" alt="RS Javascript-ru"></a>
+                <a href="https://github.com/Maria-arty"> <img id="github" src="Assets/Imgs/Github.jpg" alt="Github"></a>  
+            </div>
+            <p style="text-align: end">&#169; 2024</p>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
