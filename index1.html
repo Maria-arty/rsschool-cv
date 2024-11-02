@@ -12,7 +12,7 @@
     <header class="header_container">
         <div class="name_container">
             <h1 id="name"><span style="color: rgb(244, 246, 250);">Maria</span> Petrovskaia</h1>
-            <h3 id="profession">Frontend developer</h3>
+            <h2 id="profession">Frontend developer</h2>
         </div>
         <div class="line1"></div>
         <div class="photo_container">
@@ -21,24 +21,24 @@
         </div>
         <div class="line2"></div>
         <div class="contacts_container">
-            <h3 id="contacts">Contacts</h3>
+            <h2 id="contacts">Contacts</h2>
             <ul class="contacts-list">
             <li>
-                <a id="contacts-link" href="https://www.google.com/maps/dir//Nicosia/" target="_blank">
-                    <img id="contacts-icon" src="Assets/Imgs/location.png" alt="location-icon">
-                    <p id="contact">Nicosia, Cyprus</p>
+                <a class="contacts-link" href="https://www.google.com/maps/dir//Nicosia/" target="_blank">
+                    <img class="contacts-icon" src="Assets/Imgs/location.png" alt="location-icon">
+                    <p class="contact">Nicosia, Cyprus</p>
                 </a>
             </li>
             <li>
-                <a id="contacts-link" href="tel:+35799065609">
-                    <img id="contacts-icon" src="Assets/Imgs/phone.png" alt="phone-icon">
-                    <p id="contact">+357 99065609</p>
+                <a class="contacts-link" href="tel:+35799065609">
+                    <img class="contacts-icon" src="Assets/Imgs/phone.png" alt="phone-icon">
+                    <p class="contact">+357 99065609</p>
                 </a>
             </li>
             <li>
-                <a id="contacts-link" href="mailto:Mariapet70@gmail.com">
-                    <img id="contacts-icon" src="Assets/Imgs/pngwing.com.png" alt="email-icon">
-                    <p id="contact">mariapet70@gmail.com</p>
+                <a class="contacts-link" href="mailto:Mariapet70@gmail.com">
+                    <img class="contacts-icon" src="Assets/Imgs/pngwing.com.png" alt="email-icon">
+                    <p class="contact">mariapet70@gmail.com</p>
                 </a>
             </li>
             </ul>
@@ -51,8 +51,8 @@
               <li><a class="nav-link" href="#about">About me</a></li>
               <li><a class="nav-link" href="#education">Education</a></li>
               <li><a class="nav-link" href="#skills">Skills</a></li>
-              <li><a class="nav-link" href="#projects">Projects</a></li>
               <li><a class="nav-link" href="#languages">Languages</a></li>
+              <li><a class="nav-link" href="#projects">Projects</a></li>
               <li><a class="nav-link" href="#code">Code</a></li>
               <li><a class="nav-link" href="#contacts">Contacts</a></li>
               </ul>
@@ -60,17 +60,16 @@
         </div>
         <div class="main-wrapper">
             <section id="about">
-                <h3>About me</h3>
+                <h2>About me</h2>
                 <div class="line4"></div>
                 <p class="about-content">
                     I am a highly motivated beginner in frontend development with foundational skills in programming 
                     and a strong desire to grow in tech industry. I have a keen interest in web development
                      and a commitment to continuous learning. I am responsible, detail-oriented, and possess excellent problem-solving abilities.
-                </p>
-                
+                </p>  
             </section>
             <section id="education">
-                <h3>Education</h3>
+                <h2>Education</h2>
                 <div class="line4"></div>
                 <div class="education-list-wrapper">
                     <ul class="education-list">
@@ -82,7 +81,7 @@
                 </div>
             </section>
             <section id="skills">
-                <h3>Skills</h3>
+                <h2>Skills</h2>
                 <div class="line4"></div>
                 <div class="skills-container">
                     <ul class="skills-list">
@@ -94,7 +93,7 @@
                 </div>
             </section>
             <section id="languages">
-                <h3>Languages</h3>
+                <h2>Languages</h2>
                 <div class="line4"></div>
                 <div class="languages-container">
                     <ul class="languages-list">
@@ -106,29 +105,21 @@
                 
             </section>
             <section id="projects">
-                <h3>Projects</h3>
+                <h2>Projects</h2>
                 <div class="line4"></div>
                 <div class="projects-container">
                     <ul class="projects-list">
-                        <li id="project-list-item"><a id="project-link" href="https://rolling-scopes-school.github.io/maria-arty-JSFEPRESCHOOL2024Q2/image-gallery/" target="_blank">Image gallery</a></li>
-                        <li id="project-list-item"><a id="project-link" href="https://rolling-scopes-school.github.io/maria-arty-JSFEPRESCHOOL2024Q2/js-audio-player/" target="_blank">Audio player</a></li>
-                        <li id="project-list-item"><a id="project-link" href=" https://rolling-scopes-school.github.io/maria-arty-JSFEPRESCHOOL2024Q2/random-game/" target="_blank">Random game</a></li>
+                        <li class="project-list-item"><a class="project-link" href="https://rolling-scopes-school.github.io/maria-arty-JSFEPRESCHOOL2024Q2/image-gallery/" target="_blank">Image gallery</a></li>
+                        <li class="project-list-item"><a class="project-link" href="https://rolling-scopes-school.github.io/maria-arty-JSFEPRESCHOOL2024Q2/js-audio-player/" target="_blank">Audio player</a></li>
+                        <li class="project-list-item"><a class="project-link" href=" https://rolling-scopes-school.github.io/maria-arty-JSFEPRESCHOOL2024Q2/random-game/" target="_blank">Random game</a></li>
                     </ul>
-                    
                 </div>
-
-            
             </section>
             <section id="code">
-                <h3>Code</h3>
+                <h2>Code</h2>
                 <div class="line4"></div>
                 <div class="laptop-wrapper">
-                    <!-- <img id="laptop" src="Assets/Imgs/laptop3.png" alt="laptop"> -->
-                    <!-- <pre> -->
                         <code>
-                            <!-- const myString
-                            = 'Hello, World!';
-                            console.log(myString); -->
                         function sortMyString(S) {
                             S_arr = S.split('')
                             return S_arr.filter((char, index) =>
@@ -138,10 +129,9 @@
                             .join('')
                         }
                         </code>
-                    <!-- </pre> -->
-                    
                 </div>
-            </div>
+            </section>
+        </div>
     </main>
     <footer>
         <div class="footer-container">
@@ -150,7 +140,6 @@
                 <a href="https://github.com/Maria-arty"> <img id="github" src="Assets/Imgs/Github.jpg" alt="Github"></a>  
             </div>
             <p style="text-align: end">&#169; 2024</p>
-            
         </div>
     </footer>
     </div>
