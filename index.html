@@ -121,9 +121,9 @@
                         <code>
                         function sortMyString(S) {
                             S_arr = S.split('')
-                            return S_arr.filter((char, index) =>
+                            return S_arr.filter((char, index) =&gt;
                             index % 2 === 0)
-                            .join('') + ' ' + S_arr.filter((char, index) =>
+                            .join('') + ' ' + S_arr.filter((char, index) =&gt;
                             index % 2 !== 0)
                             .join('')
                         }
