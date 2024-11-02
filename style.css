@@ -63,6 +63,9 @@ body {
     color: #3e4658;
     margin-bottom: 0.5em;
 }
+#firstname {
+    color: rgb(244, 246, 250);
+}
 #profession {
     font-size: 1.4em;
     font-weight: 200;
